@@ -1,0 +1,17 @@
+
+from array import *
+A=array('i',[10,20,30,40])
+print(A)
+print(type(A))
+print(A.typecode)
+print(A[2])
+A.insert(1,34)
+print(A)
+A.append(45)
+print (A)
+A.extend([67,89,90])
+print(A)
+A.remove(30)
+print(A)
+A.reverse()
+print(A)
