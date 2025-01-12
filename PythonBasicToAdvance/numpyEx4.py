@@ -1,0 +1,10 @@
+import numpy as np
+A=np.array([[-10,20,30],[34,-56,78],[78,23,-45]])
+print(A)
+print("max element is:",A.max())
+print("min element:",A.min())
+print("col wise max element is :",A.max(axis=0))
+print("col wise min element is:",A.min(axis=0))
+print("row wise max element is :",A.max(axis=1))
+print("row wise min element is :",A.min(axis=1))
+print(A.sum())
